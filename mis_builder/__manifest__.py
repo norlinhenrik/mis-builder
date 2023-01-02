@@ -2,7 +2,7 @@
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl.html).
 
 {
-    "name": "MIS Builder",
+    "name": "MIS Builder PR NAME",
     "version": "14.0.4.1.1",
     "category": "Reporting",
     "summary": """
