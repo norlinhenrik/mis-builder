@@ -905,7 +905,10 @@ class MisReportInstance(models.Model):
                 "views": [[False, "list"], [False, "form"]],
                 "view_mode": "list",
                 "target": "current",
-                "context": {"active_test": False},
+                "context": {
+                    "active_test": False,
+                    "default_budget_id": period.source_mis_budget_by_account_id.id,
+                },
             }
         else:
             return False
